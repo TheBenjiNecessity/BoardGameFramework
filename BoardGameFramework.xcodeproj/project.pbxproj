@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79DBBBE71A96D47900A64D12 /* BoardGameFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 79DBBBE61A96D47900A64D12 /* BoardGameFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79DBBBED1A96D47A00A64D12 /* BoardGameFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79DBBBE11A96D47900A64D12 /* BoardGameFramework.framework */; };
+		79DBBBF41A96D47A00A64D12 /* BoardGameFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79DBBBF31A96D47A00A64D12 /* BoardGameFrameworkTests.m */; };
+		79DBBBFF1A96DA3A00A64D12 /* Card.h in Headers */ = {isa = PBXBuildFile; fileRef = 79DBBBFD1A96DA3A00A64D12 /* Card.h */; };
+		79DBBC001A96DA3A00A64D12 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 79DBBBFE1A96DA3A00A64D12 /* Card.m */; };
+		79DBBC031A96DA5B00A64D12 /* Player.h in Headers */ = {isa = PBXBuildFile; fileRef = 79DBBC011A96DA5B00A64D12 /* Player.h */; };
+		79DBBC041A96DA5B00A64D12 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 79DBBC021A96DA5B00A64D12 /* Player.m */; };
+		79DBBC0A1A97807B00A64D12 /* CardView.h in Headers */ = {isa = PBXBuildFile; fileRef = 79DBBC081A97807B00A64D12 /* CardView.h */; };
+		79DBBC0B1A97807B00A64D12 /* CardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79DBBC091A97807B00A64D12 /* CardView.m */; };
+		79DBBC0E1A9785D500A64D12 /* Deck.h in Headers */ = {isa = PBXBuildFile; fileRef = 79DBBC0C1A9785D500A64D12 /* Deck.h */; };
+		79DBBC0F1A9785D500A64D12 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 79DBBC0D1A9785D500A64D12 /* Deck.m */; };
+		79DBBC121A979E3700A64D12 /* Board.h in Headers */ = {isa = PBXBuildFile; fileRef = 79DBBC101A979E3700A64D12 /* Board.h */; };
+		79DBBC131A979E3700A64D12 /* Board.m in Sources */ = {isa = PBXBuildFile; fileRef = 79DBBC111A979E3700A64D12 /* Board.m */; };
+		79DBBC161A979E4F00A64D12 /* SlotView.h in Headers */ = {isa = PBXBuildFile; fileRef = 79DBBC141A979E4F00A64D12 /* SlotView.h */; };
+		79DBBC171A979E4F00A64D12 /* SlotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79DBBC151A979E4F00A64D12 /* SlotView.m */; };
+		79DBBC1A1A979E6500A64D12 /* Dice.h in Headers */ = {isa = PBXBuildFile; fileRef = 79DBBC181A979E6500A64D12 /* Dice.h */; };
+		79DBBC1B1A979E6500A64D12 /* Dice.m in Sources */ = {isa = PBXBuildFile; fileRef = 79DBBC191A979E6500A64D12 /* Dice.m */; };
+		79DBBC1E1A97AA8A00A64D12 /* Hand.h in Headers */ = {isa = PBXBuildFile; fileRef = 79DBBC1C1A97AA8A00A64D12 /* Hand.h */; };
+		79DBBC1F1A97AA8A00A64D12 /* Hand.m in Sources */ = {isa = PBXBuildFile; fileRef = 79DBBC1D1A97AA8A00A64D12 /* Hand.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79DBBBEE1A96D47A00A64D12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79DBBBD81A96D47900A64D12 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79DBBBE01A96D47900A64D12;
+			remoteInfo = BoardGameFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		79DBBBE11A96D47900A64D12 /* BoardGameFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BoardGameFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79DBBBE51A96D47900A64D12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79DBBBE61A96D47900A64D12 /* BoardGameFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BoardGameFramework.h; sourceTree = "<group>"; };
+		79DBBBEC1A96D47A00A64D12 /* BoardGameFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoardGameFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79DBBBF21A96D47A00A64D12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79DBBBF31A96D47A00A64D12 /* BoardGameFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BoardGameFrameworkTests.m; sourceTree = "<group>"; };
+		79DBBBFD1A96DA3A00A64D12 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		79DBBBFE1A96DA3A00A64D12 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		79DBBC011A96DA5B00A64D12 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		79DBBC021A96DA5B00A64D12 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		79DBBC081A97807B00A64D12 /* CardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardView.h; sourceTree = "<group>"; };
+		79DBBC091A97807B00A64D12 /* CardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardView.m; sourceTree = "<group>"; };
+		79DBBC0C1A9785D500A64D12 /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
+		79DBBC0D1A9785D500A64D12 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
+		79DBBC101A979E3700A64D12 /* Board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Board.h; sourceTree = "<group>"; };
+		79DBBC111A979E3700A64D12 /* Board.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Board.m; sourceTree = "<group>"; };
+		79DBBC141A979E4F00A64D12 /* SlotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlotView.h; sourceTree = "<group>"; };
+		79DBBC151A979E4F00A64D12 /* SlotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlotView.m; sourceTree = "<group>"; };
+		79DBBC181A979E6500A64D12 /* Dice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dice.h; sourceTree = "<group>"; };
+		79DBBC191A979E6500A64D12 /* Dice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dice.m; sourceTree = "<group>"; };
+		79DBBC1C1A97AA8A00A64D12 /* Hand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hand.h; sourceTree = "<group>"; };
+		79DBBC1D1A97AA8A00A64D12 /* Hand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hand.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79DBBBDD1A96D47900A64D12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79DBBBE91A96D47A00A64D12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79DBBBED1A96D47A00A64D12 /* BoardGameFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79DBBBD71A96D47900A64D12 = {
+			isa = PBXGroup;
+			children = (
+				79DBBBE31A96D47900A64D12 /* BoardGameFramework */,
+				79DBBBF01A96D47A00A64D12 /* BoardGameFrameworkTests */,
+				79DBBBE21A96D47900A64D12 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79DBBBE21A96D47900A64D12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79DBBBE11A96D47900A64D12 /* BoardGameFramework.framework */,
+				79DBBBEC1A96D47A00A64D12 /* BoardGameFrameworkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79DBBBE31A96D47900A64D12 /* BoardGameFramework */ = {
+			isa = PBXGroup;
+			children = (
+				79DBBBE61A96D47900A64D12 /* BoardGameFramework.h */,
+				79DBBC071A97805700A64D12 /* Views */,
+				79DBBC051A97803F00A64D12 /* Models */,
+				79DBBBE41A96D47900A64D12 /* Supporting Files */,
+			);
+			path = BoardGameFramework;
+			sourceTree = "<group>";
+		};
+		79DBBBE41A96D47900A64D12 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79DBBBE51A96D47900A64D12 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		79DBBBF01A96D47A00A64D12 /* BoardGameFrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				79DBBBF31A96D47A00A64D12 /* BoardGameFrameworkTests.m */,
+				79DBBBF11A96D47A00A64D12 /* Supporting Files */,
+			);
+			path = BoardGameFrameworkTests;
+			sourceTree = "<group>";
+		};
+		79DBBBF11A96D47A00A64D12 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79DBBBF21A96D47A00A64D12 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		79DBBC051A97803F00A64D12 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				79DBBBFD1A96DA3A00A64D12 /* Card.h */,
+				79DBBBFE1A96DA3A00A64D12 /* Card.m */,
+				79DBBC0C1A9785D500A64D12 /* Deck.h */,
+				79DBBC0D1A9785D500A64D12 /* Deck.m */,
+				79DBBC1C1A97AA8A00A64D12 /* Hand.h */,
+				79DBBC1D1A97AA8A00A64D12 /* Hand.m */,
+				79DBBC101A979E3700A64D12 /* Board.h */,
+				79DBBC111A979E3700A64D12 /* Board.m */,
+				79DBBC011A96DA5B00A64D12 /* Player.h */,
+				79DBBC021A96DA5B00A64D12 /* Player.m */,
+				79DBBC181A979E6500A64D12 /* Dice.h */,
+				79DBBC191A979E6500A64D12 /* Dice.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		79DBBC071A97805700A64D12 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				79DBBC081A97807B00A64D12 /* CardView.h */,
+				79DBBC091A97807B00A64D12 /* CardView.m */,
+				79DBBC141A979E4F00A64D12 /* SlotView.h */,
+				79DBBC151A979E4F00A64D12 /* SlotView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		79DBBBDE1A96D47900A64D12 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79DBBC0E1A9785D500A64D12 /* Deck.h in Headers */,
+				79DBBC1A1A979E6500A64D12 /* Dice.h in Headers */,
+				79DBBC031A96DA5B00A64D12 /* Player.h in Headers */,
+				79DBBC0A1A97807B00A64D12 /* CardView.h in Headers */,
+				79DBBC121A979E3700A64D12 /* Board.h in Headers */,
+				79DBBC1E1A97AA8A00A64D12 /* Hand.h in Headers */,
+				79DBBBFF1A96DA3A00A64D12 /* Card.h in Headers */,
+				79DBBBE71A96D47900A64D12 /* BoardGameFramework.h in Headers */,
+				79DBBC161A979E4F00A64D12 /* SlotView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		79DBBBE01A96D47900A64D12 /* BoardGameFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79DBBBF71A96D47A00A64D12 /* Build configuration list for PBXNativeTarget "BoardGameFramework" */;
+			buildPhases = (
+				79DBBBDC1A96D47900A64D12 /* Sources */,
+				79DBBBDD1A96D47900A64D12 /* Frameworks */,
+				79DBBBDE1A96D47900A64D12 /* Headers */,
+				79DBBBDF1A96D47900A64D12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BoardGameFramework;
+			productName = BoardGameFramework;
+			productReference = 79DBBBE11A96D47900A64D12 /* BoardGameFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		79DBBBEB1A96D47A00A64D12 /* BoardGameFrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79DBBBFA1A96D47A00A64D12 /* Build configuration list for PBXNativeTarget "BoardGameFrameworkTests" */;
+			buildPhases = (
+				79DBBBE81A96D47A00A64D12 /* Sources */,
+				79DBBBE91A96D47A00A64D12 /* Frameworks */,
+				79DBBBEA1A96D47A00A64D12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79DBBBEF1A96D47A00A64D12 /* PBXTargetDependency */,
+			);
+			name = BoardGameFrameworkTests;
+			productName = BoardGameFrameworkTests;
+			productReference = 79DBBBEC1A96D47A00A64D12 /* BoardGameFrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79DBBBD81A96D47900A64D12 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Benjamin Wishart";
+				TargetAttributes = {
+					79DBBBE01A96D47900A64D12 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					79DBBBEB1A96D47A00A64D12 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 79DBBBDB1A96D47900A64D12 /* Build configuration list for PBXProject "BoardGameFramework" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 79DBBBD71A96D47900A64D12;
+			productRefGroup = 79DBBBE21A96D47900A64D12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79DBBBE01A96D47900A64D12 /* BoardGameFramework */,
+				79DBBBEB1A96D47A00A64D12 /* BoardGameFrameworkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79DBBBDF1A96D47900A64D12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79DBBBEA1A96D47A00A64D12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79DBBBDC1A96D47900A64D12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79DBBC171A979E4F00A64D12 /* SlotView.m in Sources */,
+				79DBBC0F1A9785D500A64D12 /* Deck.m in Sources */,
+				79DBBC0B1A97807B00A64D12 /* CardView.m in Sources */,
+				79DBBC041A96DA5B00A64D12 /* Player.m in Sources */,
+				79DBBC1F1A97AA8A00A64D12 /* Hand.m in Sources */,
+				79DBBC1B1A979E6500A64D12 /* Dice.m in Sources */,
+				79DBBC001A96DA3A00A64D12 /* Card.m in Sources */,
+				79DBBC131A979E3700A64D12 /* Board.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79DBBBE81A96D47A00A64D12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79DBBBF41A96D47A00A64D12 /* BoardGameFrameworkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79DBBBEF1A96D47A00A64D12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79DBBBE01A96D47900A64D12 /* BoardGameFramework */;
+			targetProxy = 79DBBBEE1A96D47A00A64D12 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		79DBBBF51A96D47A00A64D12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		79DBBBF61A96D47A00A64D12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		79DBBBF81A96D47A00A64D12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = BoardGameFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		79DBBBF91A96D47A00A64D12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = BoardGameFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		79DBBBFB1A96D47A00A64D12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BoardGameFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		79DBBBFC1A96D47A00A64D12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BoardGameFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79DBBBDB1A96D47900A64D12 /* Build configuration list for PBXProject "BoardGameFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79DBBBF51A96D47A00A64D12 /* Debug */,
+				79DBBBF61A96D47A00A64D12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79DBBBF71A96D47A00A64D12 /* Build configuration list for PBXNativeTarget "BoardGameFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79DBBBF81A96D47A00A64D12 /* Debug */,
+				79DBBBF91A96D47A00A64D12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		79DBBBFA1A96D47A00A64D12 /* Build configuration list for PBXNativeTarget "BoardGameFrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79DBBBFB1A96D47A00A64D12 /* Debug */,
+				79DBBBFC1A96D47A00A64D12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79DBBBD81A96D47900A64D12 /* Project object */;
+}
