@@ -14,7 +14,7 @@
 
 -(id)initWithDisplayTitle:(NSString *)title description:(NSString *)description
 {
-    if (self = [super init])
+    if (self = [super initWithDisplayTitle:title displayDescription:description])
     {
         
     }

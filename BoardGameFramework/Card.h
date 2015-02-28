@@ -19,13 +19,10 @@
  */
 
 #import <Foundation/Foundation.h>
+#import "Item.h"
 
-@interface Card : NSObject
+@interface Card : Item
 
-/* The title of the card that would be displayed to the user */
-@property (nonatomic) NSString *displayTitle;
-/* A description of the card that would be displayed to the user */
-@property (nonatomic) NSString *displayDescription;
 @property (nonatomic) BOOL shouldBeUnique;
 @property (nonatomic) NSUInteger *identifier;
 
