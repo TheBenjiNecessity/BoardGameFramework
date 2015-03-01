@@ -11,7 +11,7 @@
 @implementation Hand
 @synthesize hand;
 
--(id)initWithCardArray:(NSArray *)cardArray
+-(id)initWithCardArray: (NSArray *)cardArray
 {
     if (self = [super init])
     {

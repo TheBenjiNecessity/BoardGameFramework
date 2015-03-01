@@ -7,7 +7,23 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Item.h"
 
-@interface Player : NSObject
+enum color
+{
+    WHITE, BLACK, RED, BLUE, YELLOW, GREEN, ORANGE, PURPLE
+};
+
+@interface Player : Item
+{
+    int points;
+    enum color color;
+}
+
+@property (readonly) int points;
+
+-(id)initWithDisplayTitle:(NSString *)title displayDescription:(NSString *)description;
+-(void)addPoints: (NSUInteger *)points;
+-(void)removePoints: (NSUInteger *)points;
 
 @end

@@ -10,4 +10,24 @@
 
 @implementation Player
 
+-(id)initWithDisplayTitle:(NSString *)title displayDescription:(NSString *)description
+{
+    if (self = [super initWithDisplayTitle:title displayDescription:description])
+    {
+        points = 0;
+    }
+    
+    return self;
+}
+
+-(void)addPoints:(NSUInteger *)p
+{
+    points += (int)p;
+}
+
+-(void)removePoints:(NSUInteger *)p
+{
+    points -= (int)p;
+}
+
 @end
