@@ -15,12 +15,11 @@
 
 @interface Dice : NSObject
 
-@property (nonatomic, readonly) u_int32_t maxValue;
-@property (nonatomic, readonly, getter=value) u_int32_t faceValue;
-
+@property (nonatomic, readonly) NSUInteger maxValue;
+@property (nonatomic, readonly, getter=value) NSUInteger faceValue;
 
 /* Init method that initializes the dice with a maximum value. */
--(id)initWithMaxValue: (u_int32_t)max;
+-(id)initWithMaxValue: (NSUInteger)max;
 
 /* Generates and stores a random number between 1 and maxValue (inclusive) and stores it in faceValue. */
 -(void)roll;

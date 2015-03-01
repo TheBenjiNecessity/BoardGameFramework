@@ -12,7 +12,7 @@
 @synthesize maxValue;
 @synthesize faceValue;
 
--(id)initWithMaxValue: (u_int32_t)max
+-(id)initWithMaxValue: (NSUInteger)max
 {
     if (self = [super init])
     {
@@ -28,7 +28,7 @@
 
 -(void)roll
 {
-    faceValue = arc4random_uniform(maxValue) + 1;
+    faceValue = arc4random_uniform((u_int32_t)maxValue) + 1;
 }
 
 @end
