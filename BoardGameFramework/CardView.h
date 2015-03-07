@@ -9,5 +9,13 @@
 #import <UIKit/UIKit.h>
 
 @interface CardView : UIView
+{
+    UIImage *cardFront;
+    UIImageView *cardImageView;
+}
+
++(UIImage *)cardBackImage;
+
+//-(void)setCardTo
 
 @end

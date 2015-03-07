@@ -8,21 +8,16 @@
 
 #import <Foundation/Foundation.h>
 #import "Item.h"
+#import "BGPlayerItem.h"
 
-enum color
-{
-    WHITE, BLACK, RED, BLUE, YELLOW, GREEN, ORANGE, PURPLE
-};
-
-@interface Player : Item
+@interface Player : NSObject <BGPlayerItem, BGItem>
 {
     int points;
-    enum color color;
 }
 
 @property (readonly) int points;
 
--(id)initWithDisplayTitle:(NSString *)title displayDescription:(NSString *)description;
+-(id)initWithName:(NSString *)name description:(NSString *)description;
 -(void)addPoints: (NSUInteger *)points;
 -(void)removePoints: (NSUInteger *)points;
 

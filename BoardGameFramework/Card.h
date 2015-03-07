@@ -21,7 +21,7 @@
 #import <Foundation/Foundation.h>
 #import "Item.h"
 
-@interface Card : Item
+@interface Card : NSObject <BGItem>
 
 @property (nonatomic) BOOL shouldBeUnique;
 @property (nonatomic) NSUInteger *identifier;

@@ -1,24 +1,14 @@
 //
-//  CardView.m
+//  HexagonView.m
 //  BoardGameFramework
 //
-//  Created by Benjamin Wishart on 2015-02-20.
+//  Created by Benjamin Wishart on 2015-03-01.
 //  Copyright (c) 2015 Benjamin Wishart. All rights reserved.
 //
 
-#import "CardView.h"
+#import "HexagonView.h"
 
-@implementation CardView
-
-+(UIImage *)cardBackImage
-{
-    static UIImage *back;
-    if (back == nil)
-    {
-        
-    }
-    return back;
-}
+@implementation HexagonView
 
 /*
 // Only override drawRect: if you perform custom drawing.

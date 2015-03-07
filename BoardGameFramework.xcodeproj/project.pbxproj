@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7921852E1A9E43400024F147 /* Item.h in Headers */ = {isa = PBXBuildFile; fileRef = 7921852C1A9E43400024F147 /* Item.h */; };
-		7921852F1A9E43400024F147 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 7921852D1A9E43400024F147 /* Item.m */; };
+		7921852E1A9E43400024F147 /* BGItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 7921852C1A9E43400024F147 /* BGItem.h */; };
 		792185321A9E451E0024F147 /* BGCost.h in Headers */ = {isa = PBXBuildFile; fileRef = 792185301A9E451E0024F147 /* BGCost.h */; };
 		792185331A9E451E0024F147 /* BGCost.m in Sources */ = {isa = PBXBuildFile; fileRef = 792185311A9E451E0024F147 /* BGCost.m */; };
 		792185361A9EA7970024F147 /* BGCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = 792185341A9EA7970024F147 /* BGCollection.h */; };
@@ -17,6 +16,21 @@
 		7921853B1A9F6D5F0024F147 /* BGReward.m in Sources */ = {isa = PBXBuildFile; fileRef = 792185391A9F6D5F0024F147 /* BGReward.m */; };
 		7921853E1A9F6D8B0024F147 /* BGTrade.h in Headers */ = {isa = PBXBuildFile; fileRef = 7921853C1A9F6D8B0024F147 /* BGTrade.h */; };
 		7921853F1A9F6D8B0024F147 /* BGTrade.m in Sources */ = {isa = PBXBuildFile; fileRef = 7921853D1A9F6D8B0024F147 /* BGTrade.m */; };
+		79ABF3D81AA2915400307CF9 /* BGPiece.h in Headers */ = {isa = PBXBuildFile; fileRef = 79ABF3D61AA2915400307CF9 /* BGPiece.h */; };
+		79ABF3D91AA2915400307CF9 /* BGPiece.m in Sources */ = {isa = PBXBuildFile; fileRef = 79ABF3D71AA2915400307CF9 /* BGPiece.m */; };
+		79ABF3DC1AA291CB00307CF9 /* BGPlayerItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 79ABF3DA1AA291CB00307CF9 /* BGPlayerItem.h */; };
+		79ABF3E01AA2A30600307CF9 /* BGRequirement.h in Headers */ = {isa = PBXBuildFile; fileRef = 79ABF3DE1AA2A30600307CF9 /* BGRequirement.h */; };
+		79ABF3E11AA2A30600307CF9 /* BGRequirement.m in Sources */ = {isa = PBXBuildFile; fileRef = 79ABF3DF1AA2A30600307CF9 /* BGRequirement.m */; };
+		79ABF3E41AA2A9F000307CF9 /* DraggableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 79ABF3E21AA2A9F000307CF9 /* DraggableView.h */; };
+		79ABF3E51AA2A9F000307CF9 /* DraggableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79ABF3E31AA2A9F000307CF9 /* DraggableView.m */; };
+		79D481011AA4009F00C733A4 /* SlotCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 79D480FF1AA4009F00C733A4 /* SlotCollectionView.h */; };
+		79D481021AA4009F00C733A4 /* SlotCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D481001AA4009F00C733A4 /* SlotCollectionView.m */; };
+		79D481051AA4014800C733A4 /* NumberView.h in Headers */ = {isa = PBXBuildFile; fileRef = 79D481031AA4014800C733A4 /* NumberView.h */; };
+		79D481061AA4014800C733A4 /* NumberView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D481041AA4014800C733A4 /* NumberView.m */; };
+		79D481091AA401DF00C733A4 /* HexagonView.h in Headers */ = {isa = PBXBuildFile; fileRef = 79D481071AA401DF00C733A4 /* HexagonView.h */; };
+		79D4810A1AA401DF00C733A4 /* HexagonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D481081AA401DF00C733A4 /* HexagonView.m */; };
+		79D4810D1AA401EC00C733A4 /* Hexagon.h in Headers */ = {isa = PBXBuildFile; fileRef = 79D4810B1AA401EC00C733A4 /* Hexagon.h */; };
+		79D4810E1AA401EC00C733A4 /* Hexagon.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D4810C1AA401EC00C733A4 /* Hexagon.m */; };
 		79DBBBE71A96D47900A64D12 /* BoardGameFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 79DBBBE61A96D47900A64D12 /* BoardGameFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		79DBBBED1A96D47A00A64D12 /* BoardGameFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79DBBBE11A96D47900A64D12 /* BoardGameFramework.framework */; };
 		79DBBBF41A96D47A00A64D12 /* BoardGameFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79DBBBF31A96D47A00A64D12 /* BoardGameFrameworkTests.m */; };
@@ -49,8 +63,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7921852C1A9E43400024F147 /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
-		7921852D1A9E43400024F147 /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+		7921852C1A9E43400024F147 /* BGItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGItem.h; sourceTree = "<group>"; };
 		792185301A9E451E0024F147 /* BGCost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGCost.h; sourceTree = "<group>"; };
 		792185311A9E451E0024F147 /* BGCost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGCost.m; sourceTree = "<group>"; };
 		792185341A9EA7970024F147 /* BGCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGCollection.h; sourceTree = "<group>"; };
@@ -59,6 +72,21 @@
 		792185391A9F6D5F0024F147 /* BGReward.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGReward.m; sourceTree = "<group>"; };
 		7921853C1A9F6D8B0024F147 /* BGTrade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGTrade.h; sourceTree = "<group>"; };
 		7921853D1A9F6D8B0024F147 /* BGTrade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGTrade.m; sourceTree = "<group>"; };
+		79ABF3D61AA2915400307CF9 /* BGPiece.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGPiece.h; sourceTree = "<group>"; };
+		79ABF3D71AA2915400307CF9 /* BGPiece.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGPiece.m; sourceTree = "<group>"; };
+		79ABF3DA1AA291CB00307CF9 /* BGPlayerItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGPlayerItem.h; sourceTree = "<group>"; };
+		79ABF3DE1AA2A30600307CF9 /* BGRequirement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGRequirement.h; sourceTree = "<group>"; };
+		79ABF3DF1AA2A30600307CF9 /* BGRequirement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGRequirement.m; sourceTree = "<group>"; };
+		79ABF3E21AA2A9F000307CF9 /* DraggableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DraggableView.h; sourceTree = "<group>"; };
+		79ABF3E31AA2A9F000307CF9 /* DraggableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DraggableView.m; sourceTree = "<group>"; };
+		79D480FF1AA4009F00C733A4 /* SlotCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlotCollectionView.h; sourceTree = "<group>"; };
+		79D481001AA4009F00C733A4 /* SlotCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlotCollectionView.m; sourceTree = "<group>"; };
+		79D481031AA4014800C733A4 /* NumberView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberView.h; sourceTree = "<group>"; };
+		79D481041AA4014800C733A4 /* NumberView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberView.m; sourceTree = "<group>"; };
+		79D481071AA401DF00C733A4 /* HexagonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HexagonView.h; sourceTree = "<group>"; };
+		79D481081AA401DF00C733A4 /* HexagonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HexagonView.m; sourceTree = "<group>"; };
+		79D4810B1AA401EC00C733A4 /* Hexagon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hexagon.h; sourceTree = "<group>"; };
+		79D4810C1AA401EC00C733A4 /* Hexagon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hexagon.m; sourceTree = "<group>"; };
 		79DBBBE11A96D47900A64D12 /* BoardGameFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BoardGameFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		79DBBBE51A96D47900A64D12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		79DBBBE61A96D47900A64D12 /* BoardGameFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BoardGameFramework.h; sourceTree = "<group>"; };
@@ -161,24 +189,30 @@
 			children = (
 				79DBBBFD1A96DA3A00A64D12 /* Card.h */,
 				79DBBBFE1A96DA3A00A64D12 /* Card.m */,
-				7921852C1A9E43400024F147 /* Item.h */,
-				7921852D1A9E43400024F147 /* Item.m */,
+				7921852C1A9E43400024F147 /* BGItem.h */,
 				792185301A9E451E0024F147 /* BGCost.h */,
 				792185311A9E451E0024F147 /* BGCost.m */,
 				792185341A9EA7970024F147 /* BGCollection.h */,
 				792185351A9EA7970024F147 /* BGCollection.m */,
 				79DBBC0C1A9785D500A64D12 /* Deck.h */,
+				79DBBC0D1A9785D500A64D12 /* Deck.m */,
 				792185381A9F6D5F0024F147 /* BGReward.h */,
 				792185391A9F6D5F0024F147 /* BGReward.m */,
 				7921853C1A9F6D8B0024F147 /* BGTrade.h */,
 				7921853D1A9F6D8B0024F147 /* BGTrade.m */,
-				79DBBC0D1A9785D500A64D12 /* Deck.m */,
 				79DBBC1C1A97AA8A00A64D12 /* Hand.h */,
 				79DBBC1D1A97AA8A00A64D12 /* Hand.m */,
+				79D4810B1AA401EC00C733A4 /* Hexagon.h */,
+				79D4810C1AA401EC00C733A4 /* Hexagon.m */,
 				79DBBC101A979E3700A64D12 /* Board.h */,
 				79DBBC111A979E3700A64D12 /* Board.m */,
 				79DBBC011A96DA5B00A64D12 /* Player.h */,
 				79DBBC021A96DA5B00A64D12 /* Player.m */,
+				79ABF3D61AA2915400307CF9 /* BGPiece.h */,
+				79ABF3D71AA2915400307CF9 /* BGPiece.m */,
+				79ABF3DE1AA2A30600307CF9 /* BGRequirement.h */,
+				79ABF3DF1AA2A30600307CF9 /* BGRequirement.m */,
+				79ABF3DA1AA291CB00307CF9 /* BGPlayerItem.h */,
 				79DBBC181A979E6500A64D12 /* Dice.h */,
 				79DBBC191A979E6500A64D12 /* Dice.m */,
 			);
@@ -192,6 +226,14 @@
 				79DBBC091A97807B00A64D12 /* CardView.m */,
 				79DBBC141A979E4F00A64D12 /* SlotView.h */,
 				79DBBC151A979E4F00A64D12 /* SlotView.m */,
+				79D480FF1AA4009F00C733A4 /* SlotCollectionView.h */,
+				79D481001AA4009F00C733A4 /* SlotCollectionView.m */,
+				79D481031AA4014800C733A4 /* NumberView.h */,
+				79D481041AA4014800C733A4 /* NumberView.m */,
+				79ABF3E21AA2A9F000307CF9 /* DraggableView.h */,
+				79ABF3E31AA2A9F000307CF9 /* DraggableView.m */,
+				79D481071AA401DF00C733A4 /* HexagonView.h */,
+				79D481081AA401DF00C733A4 /* HexagonView.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -207,16 +249,24 @@
 				79DBBC0E1A9785D500A64D12 /* Deck.h in Headers */,
 				79DBBC1A1A979E6500A64D12 /* Dice.h in Headers */,
 				79DBBC031A96DA5B00A64D12 /* Player.h in Headers */,
+				79ABF3E01AA2A30600307CF9 /* BGRequirement.h in Headers */,
 				79DBBC0A1A97807B00A64D12 /* CardView.h in Headers */,
+				79D481051AA4014800C733A4 /* NumberView.h in Headers */,
+				79D4810D1AA401EC00C733A4 /* Hexagon.h in Headers */,
 				792185321A9E451E0024F147 /* BGCost.h in Headers */,
+				79D481091AA401DF00C733A4 /* HexagonView.h in Headers */,
 				792185361A9EA7970024F147 /* BGCollection.h in Headers */,
 				79DBBC121A979E3700A64D12 /* Board.h in Headers */,
-				7921852E1A9E43400024F147 /* Item.h in Headers */,
+				79ABF3E41AA2A9F000307CF9 /* DraggableView.h in Headers */,
+				7921852E1A9E43400024F147 /* BGItem.h in Headers */,
+				79ABF3DC1AA291CB00307CF9 /* BGPlayerItem.h in Headers */,
 				79DBBC1E1A97AA8A00A64D12 /* Hand.h in Headers */,
+				79D481011AA4009F00C733A4 /* SlotCollectionView.h in Headers */,
 				79DBBBFF1A96DA3A00A64D12 /* Card.h in Headers */,
 				79DBBBE71A96D47900A64D12 /* BoardGameFramework.h in Headers */,
 				79DBBC161A979E4F00A64D12 /* SlotView.h in Headers */,
 				7921853A1A9F6D5F0024F147 /* BGReward.h in Headers */,
+				79ABF3D81AA2915400307CF9 /* BGPiece.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,18 +367,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				792185331A9E451E0024F147 /* BGCost.m in Sources */,
-				7921852F1A9E43400024F147 /* Item.m in Sources */,
+				79ABF3E11AA2A30600307CF9 /* BGRequirement.m in Sources */,
 				792185371A9EA7970024F147 /* BGCollection.m in Sources */,
 				79DBBC171A979E4F00A64D12 /* SlotView.m in Sources */,
 				79DBBC0F1A9785D500A64D12 /* Deck.m in Sources */,
+				79D4810E1AA401EC00C733A4 /* Hexagon.m in Sources */,
 				79DBBC0B1A97807B00A64D12 /* CardView.m in Sources */,
 				79DBBC041A96DA5B00A64D12 /* Player.m in Sources */,
 				7921853B1A9F6D5F0024F147 /* BGReward.m in Sources */,
 				79DBBC1F1A97AA8A00A64D12 /* Hand.m in Sources */,
 				79DBBC1B1A979E6500A64D12 /* Dice.m in Sources */,
+				79D481061AA4014800C733A4 /* NumberView.m in Sources */,
 				79DBBC001A96DA3A00A64D12 /* Card.m in Sources */,
 				7921853F1A9F6D8B0024F147 /* BGTrade.m in Sources */,
 				79DBBC131A979E3700A64D12 /* Board.m in Sources */,
+				79ABF3E51AA2A9F000307CF9 /* DraggableView.m in Sources */,
+				79ABF3D91AA2915400307CF9 /* BGPiece.m in Sources */,
+				79D4810A1AA401DF00C733A4 /* HexagonView.m in Sources */,
+				79D481021AA4009F00C733A4 /* SlotCollectionView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

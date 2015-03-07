@@ -9,10 +9,11 @@
 #import "Player.h"
 
 @implementation Player
+@synthesize color;
 
--(id)initWithDisplayTitle:(NSString *)title displayDescription:(NSString *)description
+-(id)initWithName:(NSString *)name description:(NSString *)description
 {
-    if (self = [super initWithDisplayTitle:title displayDescription:description])
+    if (self = [super initWithDisplayTitle:name displayDescription:description])
     {
         points = 0;
     }

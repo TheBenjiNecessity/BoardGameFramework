@@ -52,7 +52,6 @@
 }
 
 /* Accessor methods */
-
 -(Card *)draw
 {
     if (![self isEmpty])
