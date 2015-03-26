@@ -7,14 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DraggableView.h"
 
-@interface CardView : UIView
+@interface CardView : DraggableView
 {
     UIImage *cardFront;
     UIImageView *cardImageView;
 }
 
 +(UIImage *)cardBackImage;
+
 
 //-(void)setCardTo
 

@@ -14,7 +14,7 @@
 {
    if (self = [super init])
    {
-      self.userInteractionEnabled = YES;
+      self.userInteractionEnabled = NO;
       [self addGestureRecognizer:[[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(cardIsBeingDraggedWithPanGestureRecognizer:)]];
    }
    
