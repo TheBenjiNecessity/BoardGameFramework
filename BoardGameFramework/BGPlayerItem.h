@@ -6,15 +6,15 @@
 //  Copyright (c) 2015 Benjamin Wishart. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
-
 typedef enum color
 {
     WHITE, BLACK, RED, BLUE, YELLOW, GREEN, ORANGE, PURPLE, WILD
 } Color;
 
-@protocol BGPlayerItem <NSObject>
+@protocol BGPlayerItem
 
 @property (nonatomic) Color color;
+
+- (Color)color;
 
 @end

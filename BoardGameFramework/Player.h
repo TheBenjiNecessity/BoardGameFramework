@@ -7,13 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Item.h"
+#import "BGItem.h"
 #import "BGPlayerItem.h"
 
 @interface Player : NSObject <BGPlayerItem, BGItem>
-{
-    int points;
-}
 
 @property (readonly) int points;
 
